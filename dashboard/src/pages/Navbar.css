@@ -1,0 +1,38 @@
+.Navbar{
+    background-color: #d14959;
+   color:#000000;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   position: sticky;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.Navbar-Title{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.Navbar-Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 200px;
+}
+
+#Navbar-Links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 900;
+    font-size: 20px;
+    
+}
+
+.Navbar-Links-Add{
+    margin-right: 300px;
+}
